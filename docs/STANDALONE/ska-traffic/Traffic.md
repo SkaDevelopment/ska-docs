@@ -1,6 +1,6 @@
 === "🔎 Preview"
 
-    ![ska-traffic-original.png is the image](assets\ska-traffic-original.png)
+    ![ska-traffic-original.png is the image](assets/ska-traffic-original.png)
 
     [🛒 BUY](https://ska-webstore.tebex.io/category/standalone){ .md-button .md-button--primary }
     [🎬 Preview](https://www.youtube.com/watch?v=S4Z942uoA0Q){ .md-button .md-button--primary }
