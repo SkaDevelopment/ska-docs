@@ -1,6 +1,6 @@
 === "🔎 Preview"
 
-    ![ska-solar-original.png is the image](assets/logo.png)
+    ![logo.png is the image](assets/logo.png)
 
     [🛒 BUY](https://ska-webstore.tebex.io/category/qbcore){ .md-button .md-button--primary }
     [🎬 Preview](https://www.youtube.com/watch?v=wU8RPLMW5e0){ .md-button .md-button--primary }
