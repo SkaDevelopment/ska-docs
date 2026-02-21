@@ -1,0 +1,90 @@
+site_name: ""
+site_url: https://ska.com
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - navigation.expand
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: custom
+      accent: custom
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+      accent: custom
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+plugins:
+  - typeset
+  - search
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://www.youtube.com/@SKA_development
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/4FWU2K5nPF
+    - icon: fontawesome/solid/cart-shopping
+      link: https://ska-webstore.tebex.io/      
+
+copyright: Copyright &copy; 2026 SKA | All rights reserved
+
+nav:
+  - Home: home.md
+  - About: about.md
+  - STANDALONE:
+    - ska-traffic: STANDALONE/ska-traffic/Traffic.md
+    - ska-props: STANDALONE/ska-props/props.md
+  - QBCore:
+    - ska-solar: QBCore/ska-solar/Solar.md
+  - QBox:
+    - ska-solar: QBox/ska-solar/Solar.md
+  - ESX:
+    - ska-solar: ESX/ska-solar/Solar.md
+    
+extra_css:
+  - stylesheets/extra.css
