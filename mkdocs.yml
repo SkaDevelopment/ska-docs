@@ -74,7 +74,7 @@ extra:
 copyright: Copyright &copy; 2026 SKA | All rights reserved
 
 nav:
-  - Home: home.md
+  - Home: index.md
   - About: about.md
   - STANDALONE:
     - ska-traffic: STANDALONE/ska-traffic/Traffic.md
