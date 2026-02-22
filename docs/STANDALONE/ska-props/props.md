@@ -6,7 +6,7 @@
 
     Preview : 
 
-    ![preview.png is the image](assets\preview.png)
+    ![preview.png is the image](assets/preview.png)
 
 === "🛠️​ Installation"
 
