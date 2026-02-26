@@ -2,7 +2,7 @@
 
     ![ska-solar-original.png is the image](assets/ska-solar-original.png)
 
-    [🛒 BUY](https://ska-webstore.tebex.io/category/qbcox){ .md-button .md-button--primary }
+    [🛒 BUY](https://ska-webstore.tebex.io/category/qbox){ .md-button .md-button--primary }
     [🎬 Preview](https://www.youtube.com/watch?v=wU8RPLMW5e0){ .md-button .md-button--primary }
 
 === "🛠️​ Installation"
